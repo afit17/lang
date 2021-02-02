@@ -3,15 +3,14 @@
 
 ### Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python
     #print "Berikut ini Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python"
-
-praktikum = "Algoritma Pemrograman 2B"
-nama = Input("Masukkan Nama Anda : ")
-npm = Input("Masukkan NPM Anda : ")
-print ( " Halo, Nama saya " + nama + ", NPM Saya Adalah " + npm + " Sekarang Saya Belajar " + praktikum )
-nilai a = Input("Masukkan nilai a : ")
-nilai b	= Input("Masukkan nilai b : ")
-Hasil = a + b
-print (" Maka : " + " Hasil = a + b " + Hasil = a + b)
+    praktikum = "Algoritma Pemrograman 2B"
+    nama = Input("Masukkan Nama Anda : ")
+    npm = Input("Masukkan NPM Anda : ")
+    print ( " Halo, Nama saya " + nama + ", NPM Saya Adalah " + npm + " Sekarang Saya Belajar " + praktikum )
+    nilai a = Input("Masukkan nilai a : ")
+    nilai b	= Input("Masukkan nilai b : ")
+    Hasil = a + b
+    print (" Maka : " + " Hasil = a + b " + Hasil = a + b)
     
 ### Sintak Besar Kecil
     #include <stdio.h>
