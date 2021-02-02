@@ -1,5 +1,5 @@
 # Python
-
+    ini adalah kumpulan tugas source code saya selama saya kuliah
 
 ### Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python
     print "Berikut ini Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python"
