@@ -2,7 +2,7 @@
 
 
 ### Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python
-    #print "Berikut ini Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python"
+    print "Berikut ini Program Perhitungan Penjumlahan Dengan Menggunakan Bahasa Pemograman Python"
     praktikum = "Algoritma Pemrograman 2B"
     nama = Input("Masukkan Nama Anda : ")
     npm = Input("Masukkan NPM Anda : ")
@@ -12,33 +12,33 @@
     Hasil = a + b
     print (" Maka : " + " Hasil = a + b " + Hasil = a + b)
     
-### Sintak Besar Kecil
-    #include <stdio.h>
+### Program Menghitung Kubus
+    print ("Program Keliling, Luas, dan Volume Kubus")
+    print
+    def Keliling(x):
+    return (12*x)
 
-    int a, b, c, max, min;
-    void fungsi_bk(){
-        if (a > b){
-            max = a;
-            min = b;
-        }
-        else{
-            max = b;
-            min = a;
-        }
-        if (c > max)
-            max = c;
-        if (c < min)
-            min = c;
-    }
+    def Luas(x):
+    return (6*x*x)
 
-    void main(){
-        printf("Masukan bilangan 1 : ");
-        scanf("%d", &a);
-        printf("Masukan bilangan 2 : ");
-        scanf("%d", &b);
-        printf("Masukan bilangan 3 : ");
-        scanf("%d", &c);
-        fungsi_bk();
-        printf("\nBilangan terbesar : %d\n", max);
-        printf("Bilangan terkecil : %d", min);
-    }
+    def Volume(x):
+    return (x*x*x)
+    x = int(raw_input("Masukkan Panjang Sisi Kubus :"))
+
+    print 
+    print ("Menu")
+    print ("1. Keliling") 
+    print ("2. Luas")
+    print ("3. Volume")
+
+    y = int(raw_input("Masukkan Pilihan Anda :"))
+    print
+    if y == 1:
+    print "Keliling Kubus adalah " ,Keliling(x)
+    elif y == 2:
+    print "Luas Kubus adalah " ,Luas(x)
+    elif y == 3:
+    print 
+    print "Volume Kubus adalah " ,Volume(x)
+    else:
+    print "Tidak Ada Pilihan"
